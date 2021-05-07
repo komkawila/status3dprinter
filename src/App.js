@@ -36,29 +36,29 @@ function App() {
           <li>
             {
               (state1 == 1) ?
-                <div className="state">Machine 1 : <span class="dot-running"></span> <span class="dot-txt-running">Running</span></div> :
-                <div className="state">Machine 1 : <span class="dot-stopping"></span> <span class="dot-txt-stopping">Stopping</span></div>
+                <div className="state">Machine 1 : <span class="dot-running"></span> <span class="dot-txt-running">Ready</span></div> :
+                <div className="state">Machine 1 : <span class="dot-stopping"></span> <span class="dot-txt-stopping">Not Ready</span></div>
             }
           </li>
           <li>
             {
               (state2 == 1) ?
-                <div className="state">Machine 2 : <span class="dot-running"></span> <span class="dot-txt-running">Running</span></div> :
-                <div className="state">Machine 2 : <span class="dot-stopping"></span> <span class="dot-txt-stopping">Stopping</span></div>
+                <div className="state">Machine 2 : <span class="dot-running"></span> <span class="dot-txt-running">Ready</span></div> :
+                <div className="state">Machine 2 : <span class="dot-stopping"></span> <span class="dot-txt-stopping">Not Ready</span></div>
             }
           </li>
           <li>
             {
               (state3 == 1) ?
-                <div className="state">Machine 3 : <span class="dot-running"></span> <span class="dot-txt-running">Running</span></div> :
-                <div className="state">Machine 3 : <span class="dot-stopping"></span> <span class="dot-txt-stopping">Stopping</span></div>
+                <div className="state">Machine 3 : <span class="dot-running"></span> <span class="dot-txt-running">Ready</span></div> :
+                <div className="state">Machine 3 : <span class="dot-stopping"></span> <span class="dot-txt-stopping">Not Ready</span></div>
             }
           </li>
           <li>
             {
               (state4 == 1) ?
-                <div className="state">Machine 4 : <span class="dot-running"></span> <span class="dot-txt-running">Running</span></div> :
-                <div className="state">Machine 4 : <span class="dot-stopping"></span> <span class="dot-txt-stopping">Stopping</span></div>
+                <div className="state">Machine 4 : <span class="dot-running"></span> <span class="dot-txt-running">Ready</span></div> :
+                <div className="state">Machine 4 : <span class="dot-stopping"></span> <span class="dot-txt-stopping">Not Ready</span></div>
             }
           </li>
         </ul>
