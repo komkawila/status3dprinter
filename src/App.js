@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      axios.get("https://api.netpie.io/feed/dashboardmachine?apikey=aHjFlVwqGyuD34VUijBMrz8UftfokCTj&granularity=10minutes&since=24hours").then((res) => {
+      axios.get("https://api.netpie.io/feed/dashboardmachine?apikey=aHjFlVwqGyuD34VUijBMrz8UftfokCTj&granularity=10minutes&since=1year").then((res) => {
         setState1(res.data.lastest_data[0].values[0][1]);
         setState2(res.data.lastest_data[1].values[0][1]);
         setState3(res.data.lastest_data[2].values[0][1]);
